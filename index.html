@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Lab</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="main-title">DOM Manipulation Lab</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="content-box">
+                <h2 id="dynamic-text">Welcome to the DOM Lab</h2>
+                <p id="style-demo">This paragraph will change style when you click the button below.</p>
+                <button id="style-btn">Change Style</button>
+            </section>
+
+            <section class="content-box">
+                <h3>Element Manipulation</h3>
+                <div id="toggle-area">
+                    <p>This content can be toggled.</p>
+                </div>
+                <button id="toggle-btn">Toggle Content</button>
+                <button id="add-btn">Add New Item</button>
+                <button id="remove-btn">Remove Last Item</button>
+            </section>
+
+            <section class="content-box">
+                <h3>List Items</h3>
+                <ul id="item-list">
+                    <li>Initial Item 1</li>
+                    <li>Initial Item 2</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 DOM Manipulation Lab | Designed by Benard Kimani</p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
